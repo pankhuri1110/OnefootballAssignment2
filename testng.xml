@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+  <parameter name="filepath" value="D:\\Workspace\\Onefootball\\src\\com\\onefootball\\baselib\\app.properties" />
+  
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.onefootball.tests.Search"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
